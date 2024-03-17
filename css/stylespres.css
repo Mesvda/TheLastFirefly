@@ -1,0 +1,84 @@
+section.top-page {
+    padding: 5px;
+    background-size: cover;
+    background-color: rgba(202, 202, 202, 0.5);
+    
+}
+@font-face {
+    font-family: 'crypto_crashregular';
+    src: url('../font/crypto_crash-webfont.woff2') format('woff2'),
+         url('../font/crypto_crash-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'lotusf';
+    src: url('../font/lotusf__-webfont.woff2') format('woff2'),
+         url('../font/lotusf__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+nav{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    margin-left: 30px;
+    font-family: 'lotusf';
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+html{
+    background-color: rgb(43, 43, 43);
+    background-image: url('../images/victor-villa-medieval-hell-full-hd-art.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    display: grid;
+    place-content: center;
+    font-family: 'crypto_crashregular';
+    font-size: 80px;
+}
+.logo{
+    width: 300px;
+    position: absolute;
+    top: 8px;
+    right: 5; 
+    margin-top: 12px;
+}
+
+html{
+    background-color: rgb(43, 43, 43);
+}
+.text-zone{
+    background-color: rgb(176,159,151,255);
+    margin-top: 8%;
+    align-items: center;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'lotusf';
+}
+.centre{
+    width: 280px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    display: flex;
+}
+.dos{
+    width: 280px;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    display: flex;
+}
+h2{
+    margin-left: 50px;
+    width: 800px;
+    justify-content: space-around;
+}
