@@ -55,18 +55,16 @@ html{
 .text-zone {
     position: absolute;
     top: 60%;
-    left: 40%;
-    transform: translate(-100%, -50%);
-    height: 40%;
-    width: 35%;
-    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+    padding: 20px; /* Ajout du padding */
+    border-radius: 50px; /* Arrondir les coins */
     background-color: rgb(176,159,151,255);
+    display: inline-block; /* Ajuster le contour autour du texte */
 }
-h2{
+
+h2 {
     font-family: fantasy;
-    margin-top: 5%;
-    margin-left: 50px;
-    width: 800px;
     justify-content: space-around;
 }

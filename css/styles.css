@@ -34,8 +34,6 @@ html{
     background-image: url('../images/victor-villa-medieval-hell-full-hd-art.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-origin: padding-box;
-    background-size: 100%;
 }
 h1{
     display: grid;

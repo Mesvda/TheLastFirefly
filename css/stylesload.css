@@ -62,4 +62,5 @@ html{
     margin: 0 auto;
     text-align: center;
     background-color: rgb(176,159,151,255);
+    border-radius: 50px; /* Arrondir les coins */
   }
