@@ -4,15 +4,20 @@ body {
     background-image: url('../images/victor-villa-medieval-hell-full-hd-art.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #fff;
     text-align: center;
+    height: 100vh; /* Assure que le body prend toute la hauteur de la fenêtre */
+    display: flex;
+    flex-direction: column;
 }
 
 section.top-page {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
-    margin: 20px;
+    margin: 20px auto;
+    width: 90%;
 }
 
 .header-content {
@@ -21,7 +26,7 @@ section.top-page {
     align-items: center;
 }
 
-img {
+.logo {
     width: 150px;
     margin-top: 20px;
     border-radius: 50%;
@@ -77,9 +82,16 @@ nav ul li a:hover {
     font-style: normal;
 }
 
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .text-zone {
     background-color: rgba(176, 159, 151, 0.9);
-    margin: 4% auto;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -113,4 +125,8 @@ nav ul li a:hover {
 
 .text-zone h1 a:hover {
     color: #555;
+}
+
+ion-icon {
+    font-size: 48px; /* Agrandir les icônes */
 }
